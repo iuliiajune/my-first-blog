@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+    <head>
+        <title>Dashboards - Julia & Django Girls blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+        <div class="page-header">
+            <h1><a href="{% url 'dashboards' %}">Dashboards</a></h1>
+            <h2><a href="/">Julia & Django Girls Blog</a></h2>
+        </div>
+        <div class="content container">
+            <table>
+                <tr>
+                    <th>Header1</th><th>Header2</th></tr>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

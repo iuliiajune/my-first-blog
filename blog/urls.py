@@ -13,6 +13,9 @@ urlpatterns = [
     path('post/<int:pk>/remove/', views.post_remove, name='post_remove'),
     path('post/new', views.post_new, name='post_new'),
     path('post/new/', views.post_new, name='post_new'),
+    path('drafts', views.post_draft_list, name='post_draft_list'),
     path('drafts/', views.post_draft_list, name='post_draft_list'),
-    path('drafts/', views.post_draft_list, name='post_draft_list'),
+
+    path('dashboards', views.dashboards, name='dashboards'),
+    path('dashboards/', views.dashboards, name='dashboards'),
 ]
