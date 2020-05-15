@@ -9,8 +9,12 @@
     </head>
     <body>
         <div class="page-header">
-            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span>New post</a>
+            <div><iframe src="https://yandex.ru/covid19/stat/widget/light/?geoId=11079" width=200 height=170 frameborder="0"></iframe></div>
             <h1><a href="/">Julia & Django Girls Blog</a></h1>
+            {% if user.is_authenticated %}
+                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span>New post</a>
+                <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit">Drafts</span></a>
+            {% endif %}
         </div>
         <div class="content container">
             <div class="row">
