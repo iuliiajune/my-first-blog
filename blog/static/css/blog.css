@@ -7,6 +7,10 @@ body {
     padding-left: 15px;
 }
 
+.overview {
+    padding-right: 15px;
+}
+
 .page-header {
     background-color: #004d26;
     margin-top: 0;
@@ -34,4 +38,16 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    align: center;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
 }
