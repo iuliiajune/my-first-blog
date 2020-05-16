@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceec5761-381b-4a2a-ba10-055fb2a1192c" name="Default Changelist" comment="Edit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ceec5761-381b-4a2a-ba10-055fb2a1192c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,16 +48,27 @@
         <counts>
           <entry key="css" value="779" />
           <entry key="gitignore" value="9" />
+<<<<<<< HEAD
           <entry key="html" value="1525" />
           <entry key="py" value="2296" />
           <entry key="txt" value="122" />
+=======
+          <entry key="html" value="1528" />
+          <entry key="py" value="2296" />
+          <entry key="txt" value="176" />
+>>>>>>> 29bf518a0d80b32f839320ca8bcea071fe04beb4
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="779" />
+<<<<<<< HEAD
           <entry key="HTML" value="1525" />
           <entry key="PLAIN_TEXT" value="131" />
+=======
+          <entry key="HTML" value="1528" />
+          <entry key="PLAIN_TEXT" value="185" />
+>>>>>>> 29bf518a0d80b32f839320ca8bcea071fe04beb4
           <entry key="Python" value="2296" />
         </counts>
       </usages-collector>
@@ -69,8 +79,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="102">
               <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
+=======
+            <state relative-caret-position="119">
+              <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+>>>>>>> 29bf518a0d80b32f839320ca8bcea071fe04beb4
             </state>
           </provider>
         </entry>
@@ -352,7 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589660000109</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="11" />
+=======
+    <task id="LOCAL-00011" summary="Edit order of attributes for css switching on">
+      <created>1589660708944</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589660708944</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+>>>>>>> 29bf518a0d80b32f839320ca8bcea071fe04beb4
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -408,7 +434,12 @@
     <MESSAGE value="Add Publish &amp; Delete &amp; Drafts buttons" />
     <MESSAGE value="Add Dashboards page" />
     <MESSAGE value="Add More on authenticated users" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="Add More on authenticated users" />
+=======
+    <MESSAGE value="Edit order of attributes for css switching on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit order of attributes for css switching on" />
+>>>>>>> 29bf518a0d80b32f839320ca8bcea071fe04beb4
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Scripts/activate">
@@ -558,8 +589,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="102">
           <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+>>>>>>> 29bf518a0d80b32f839320ca8bcea071fe04beb4
         </state>
       </provider>
     </entry>
