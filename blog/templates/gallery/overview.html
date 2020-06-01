@@ -1,7 +1,7 @@
 {% load static %}
 <html>
     <head>
-        <title>Julia & Django Girls blog</title>
+        <title>Gallery - Julia & Django Girls blog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" type="text/css">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" type="text/css">
@@ -9,18 +9,12 @@
     </head>
     <body>
         <div class="page-header">
-            <div><iframe src="https://yandex.ru/covid19/stat/widget/light/?geoId=11079" width=200 height=170 frameborder="0"></iframe></div>
-            <h1><a href="/">Julia & Django Girls Blog</a></h1>
-            <h2>
-                <a href="{% url 'dashboards' %}">Dashboards</a>
-                <a href="{% url 'gallery' %}">Gallery</a>
-            </h2>
+            <h1><a href="{% url 'gallery' %}">Gallery</a></h1>
+            <h2><a href="/">Julia & Django Girls Blog</a></h2>
             {% if user.is_authenticated %}
                 <h2>
                     <p>
                         Hello {{ user.username }} (<a href="{% url 'logout' %}">Log out</a>)
-                        <a href="{% url 'post_new' %}">New post</a>
-                        <a href="{% url 'post_draft_list' %}">Drafts</a>
                     </p>
                 </h2>
             {% else %}
@@ -29,13 +23,17 @@
                 </h3>
             {% endif %}
         </div>
-        <div class="content container">
-            <div class="row">
-                <div class="col-md-8">
-                {% block content %}
-                {% endblock %}
-                </div>
-            </div>
+        <div class="overview">
+            <table>
+                <tr>
+                    <th>Header1</th><th>Header2</th><th>Header3</th>
+                </tr>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>

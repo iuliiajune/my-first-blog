@@ -99,3 +99,6 @@ def comment_remove(request, pk):
 
 def dashboards(request):
     return render(request, 'dashboards/overview.html')
+
+def gallery(request):
+    return render(request, 'gallery/overview.html')
