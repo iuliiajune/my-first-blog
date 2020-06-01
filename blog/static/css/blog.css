@@ -51,3 +51,7 @@ table {
 th, td {
     border: 1px solid black;
 }
+
+.comment {
+    margin: 20px 0px 20px 20px;
+}
