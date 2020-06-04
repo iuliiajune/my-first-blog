@@ -14,6 +14,7 @@ urlpatterns = [
     path('drafts', views.post_draft_list, name='post_draft_list'),
 
     path('dashboards', views.dashboards, name='dashboards'),
+    path('dashboards/new', views.new_dashboard, name='new_dashboard'),
 
     path('gallery', views.gallery, name='gallery'),
 ]

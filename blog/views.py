@@ -100,5 +100,11 @@ def comment_remove(request, pk):
 def dashboards(request):
     return render(request, 'dashboards/overview.html')
 
+
+@login_required
+def new_dashboard(request):
+    return render(request, 'dashboards/new_dashboard.html')
+
+
 def gallery(request):
     return render(request, 'gallery/overview.html')

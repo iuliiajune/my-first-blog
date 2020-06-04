@@ -37,5 +37,18 @@
                 </div>
             </div>
         </div>
+        <script>
+            document.write('<a href="#">JS, hello<a>');
+            var colorArray = ["#000000", "#ffffff", "#245831", "#848456", "#fca458"];
+            var i = 0;
+            function changeColor() {
+                 document.body.style.background = colorArray[i];
+                 i++;
+                 if(i > colorArray.length - 1){
+                     i = 0;
+                 }
+            }
+        </script>
+        <button onclick="changeColor();">Change the background</button>
     </body>
 </html>

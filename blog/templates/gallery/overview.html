@@ -10,7 +10,10 @@
     <body>
         <div class="page-header">
             <h1><a href="{% url 'gallery' %}">Gallery</a></h1>
-            <h2><a href="/">Julia & Django Girls Blog</a></h2>
+            <h2>
+                <a href="/">Julia & Django Girls Blog</a>
+                <a href="{% url 'dashboards' %}">Dashboards</a>
+            </h2>
             {% if user.is_authenticated %}
                 <h2>
                     <p>
